@@ -1,0 +1,158 @@
+body {
+  font-family: 'Noto Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Fjalla One', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  height: 100vh;
+}
+
+/* header */
+header {
+  width: 100%;
+  padding: 20px 60px;
+  text-transform: uppercase;
+  position: fixed;
+  background-color: white;
+  z-index: 1;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+footer {
+  position: absolute;
+  bottom: 20px;
+  right: 60px;
+  font-size: 12px;
+  text-align: right;
+}
+
+h1 {
+  font-size: 16px;
+}
+
+.content {
+  position: relative;
+  margin: 0 auto;
+  padding-top: 150px;
+  box-sizing: border-box;
+}
+
+.background-higlight {
+  position: fixed;
+  width: 30%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #f7e2e2;
+}
+
+.main-info,
+.contact-info {
+  width: 50%;
+  display: inline-block;
+  float: right;
+}
+
+/* main-info */
+.main-info {
+  width: 50%;
+  margin-right: 5%;
+}
+
+.main-info-title {
+  font-size: 18px;
+}
+
+.main-info-title .big-text {
+  font-size: 110px;
+}
+
+.about-text {
+  width: 65%;
+}
+
+/* CTA buttons */
+.main-ctas {
+  margin: 30px auto;
+}
+
+.main-ctas button {
+  background-color: #f28482;
+  border: none;
+  font-family: 'Noto Sans', sans-serif;
+  padding: 15px 24px;
+  border-radius: 6px;
+  margin-right: 20px;
+  min-width: 130px;
+  font-size: 16px;
+  font-weight: bold;
+  border: 1px solid #f28482;
+  color: white;
+}
+
+#downloadCV {
+  background-color: transparent;
+  color: #f28482;
+}
+
+/* contact-info */
+
+.contact-info {
+  width: 30%;
+  min-width: 400px;
+  position: relative;
+  box-shadow: 0 0 12px #0000003d;
+  border-radius: 10px;
+  padding: 60px 80px;
+  padding-bottom: 20px;
+  box-sizing: border-box;
+  left: -80px;
+  background-color: #f5cac3;
+}
+
+.contact-info-avatar {
+  display: block;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.contact-info-title {
+  text-align: center;
+  margin: 40px 0;
+  font-weight: 900;
+}
+
+.contact-info-description {
+  text-align: center;
+  margin: 20px 0 40px 0;
+  text-transform: uppercase;
+}
+
+.contact-links {
+  margin: 0 auto;
+  width: fit-content;
+  border-top: 2px solid #f28482;
+  padding-top: 40px;
+}
+
+.contact-links a {
+  display: inline-block;
+  margin: 0 6px;
+}
+
+.contact-links img {
+  width: 20px;
+}
