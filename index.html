@@ -27,8 +27,10 @@
             <span>I'm Ruth, let's get to know each other better shall we?</span>
           </h2>
           <div class="main-ctas">
-            <button id="contactMe">Contact me</button>
-            <button id="downloadCV">Download my CV</button>
+            <a id="contactMe" class="main-cta">Contact me</a>
+            <a id="downloadCV" class="main-cta" href="assets/files/CV.pdf" download=""
+              >Download my CV</a
+            >
           </div>
 
           <div class="about-text">
@@ -39,10 +41,12 @@
               Front-end web development calls to all my passions; it incorporates creativity and
               problem solving and I'm allowed to break it to improve the code.
             </p>
-            <p>
-              I love applying proper design principles and watching my web pages structured
-              semantically-perfect, while also looking amazing.
-            </p>
+            <p>My main experties are:</p>
+            <ul class="experties">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Javascript</li>
+            </ul>
           </div>
         </section>
         <section class="contact-info">
@@ -61,6 +65,41 @@
           </div>
         </section>
       </article>
+      <div class="popup-backdrop">
+        <aside class="contact-popup">
+          <h2>Contact me</h2>
+          <form id="contact-form">
+            <a id="close-popup">X</a>
+            <label for="full-name">Full name</label>
+            <input
+              type="text"
+              name="full-name"
+              id="full-name"
+              placeholder="What's your full name?"
+              required
+            />
+
+            <label for="email">Email</label>
+            <input
+              type="text"
+              name="email"
+              id="email"
+              placeholder="What's your email address?"
+              required
+            />
+
+            <label for="summary">Main topic</label>
+            <textarea
+              name="summary"
+              id="summary"
+              placeholder="Tell me what is on your mind (only if you want :))"
+              rows="6"
+            ></textarea>
+
+            <input id="send-button" type="submit" value="Send" />
+          </form>
+        </aside>
+      </div>
       <footer>
         <p>Web development course 2020</p>
       </footer>
